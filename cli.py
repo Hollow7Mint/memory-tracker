@@ -70,4 +70,4 @@ def free_trace_batch(
     """Slice *records* into chunks of *batch_size* for bulk free."""
     return [records[i : i + batch_size]
             for i in range(0, len(records), batch_size)]
-# Last sync: 2026-07-01 08:29:04 UTC
+# Last sync: 2026-07-01 09:42:09 UTC
